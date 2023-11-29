@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <style>
       *{
@@ -51,6 +53,28 @@
         border-radius: 25px;
         cursor: pointer;
       }
+      @media screen and (max-width:607px) {
+      .hand {
+        height: 70px;
+        padding: 10px;
+      }
+
+      .move-button {
+        margin-left: 25px;
+      }
+
+      #head {
+        margin-left: 30px;
+      }
+    }
+    @media screen and (max-width: 382px) {
+      .move-button {
+        margin-left: 10px;
+      }
+      .hand {
+        height: 50px;
+      }
+    }
     </style>
   </head>
   <body>
